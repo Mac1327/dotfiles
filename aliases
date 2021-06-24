@@ -4,3 +4,13 @@ alias speedtest="curl -s https://raw.githubusercontent.com/sivel/speedtest-cli/m
 
 # Quickly serve the current directory as HTTP
 alias serve='ruby -run -e httpd . -p 8000' # Or python -m SimpleHTTPServer :)
+
+#nvidia-smi
+alias nvreset="sudo rmmod nvidia_uvm &&  sudo modprobe nvidia_uvm"
+alias nv="nvidia-smi"
+alias nv1="nvidia-smi -l 1"
+
+
+# export GOOGLE_APPLICATION_CREDENTIALS=/home/mac1327/Documents/gcp_keys/picturingemotions-5e28d8badffb.json <<<<<<<picturingemotions
+# export GOOGLE_APPLICATION_CREDENTIALS=/home/mac1327/Documents/gcp_keys/affable-radio-305810-a1cce4c60a1a.json <<<<<<<<<<old lewagon
+export GOOGLE_APPLICATION_CREDENTIALS=/home/mac1327/Documents/gcp_keys/super-project-martin-.json
